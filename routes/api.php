@@ -15,9 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/petitions', [ApiController::class, 'index']);
-
-Route::resource('petitions', ApiController::class);
+Route::get('/petition/{order_id}', [ApiController::class, 'show']);
+Route::post('/petition/{order_id}/create', [ApiController::class,'store'])->name('petition.store');
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();

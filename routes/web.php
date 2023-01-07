@@ -14,6 +14,5 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::post('/petitions', [PetitionController::class,'store'])->name('petition.store');
-Route::get('/view_petitions',[PetitionController::class,'viewPetition']);
-Route::get('/add_petition',[PetitionController::class,'addPetition']);
+
+Route::get('/petitions',[PetitionController::class,'viewPetition']);

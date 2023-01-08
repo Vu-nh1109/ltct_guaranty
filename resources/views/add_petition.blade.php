@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html><head><title></title></head><body>
     <div class="container">
     <form method="post" action="{{ route('petition.store', ['order_id'=> $order_id]) }}" enctype="multipart/form-data">

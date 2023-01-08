@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html><head><title></title></head><body>
     <div class="container">
         <h3>View all petition</h3><hr>

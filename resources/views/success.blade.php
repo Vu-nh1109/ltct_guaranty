@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <?php
 if($success){
     echo 'Yeu cau cua ban da duoc nhan';

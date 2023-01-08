@@ -28,6 +28,8 @@ class ApiController extends Controller
         $data['image2'] = hasImage($request,'image2');
         $data['image3'] = hasImage($request,'image3');
 
+        $data['type'] = $request->input('type');
+
         return view('success',['success' => $data->save()]);
         
     }

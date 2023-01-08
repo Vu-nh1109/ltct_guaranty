@@ -22,6 +22,11 @@
         <input type="file" name="image3">
         </div>
 
+        <div class="radio">
+        <input type="radio" name="type" value=0> doi hang 
+        <input type="radio" name="type" value=1> tra hang
+        </div>
+
         <div class="post_button">
         <button type="submit" class="btn btn-success">Add</button>
         </div>

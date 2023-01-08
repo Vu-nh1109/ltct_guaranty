@@ -13,6 +13,7 @@ class Petition extends Model
         'reason',
         'image1',
         'image2',
-        'image3'
+        'image3',
+        'type'
     ];
 }

@@ -17,6 +17,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/petitions',[PetitionController::class,'viewPetition']);
 
-Auth::routes();
+//Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
